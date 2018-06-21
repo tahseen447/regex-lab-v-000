@@ -23,7 +23,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if(phone.grep(/\A\d{10}\z| /))
+if(phone.grep(/\d{10} /))
   return true
 else
   return false
