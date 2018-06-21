@@ -23,7 +23,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if(phone.match(/(\d+)|\d{10}|(\d{3})-\d{7} |/))
+if(phone.match(/(\d+)|\d{10}|(\d+)(\d+)-(\d+) |/))
   return true
 else
   return false
